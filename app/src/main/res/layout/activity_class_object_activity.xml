@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp">
+
+    <Button
+        android:id="@+id/btn_property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="属性" />
+
+    <Button
+        android:id="@+id/btn_constructor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="构造函数" />
+
+    <Button
+        android:id="@+id/btn_nested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="嵌套类" />
+
+    <Button
+        android:id="@+id/btn_internal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="内部类" />
+    <Button
+        android:id="@+id/btn_anonymous_internal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="匿名内部类" />
+
+</LinearLayout>

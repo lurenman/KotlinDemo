@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp">
+
+    <Button
+        android:id="@+id/btn_data_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据类" />
+
+    <Button
+        android:id="@+id/btn_sealed_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="密封类" />
+</LinearLayout>
