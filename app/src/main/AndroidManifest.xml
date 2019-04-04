@@ -24,6 +24,7 @@
         <activity android:name=".activity.ExtensionActivity" />
         <activity android:name=".activity.DataClassAndSealedClassActivity" />
         <activity android:name=".activity.GenericActivity" />
+        <activity android:name=".activity.EnumActivity" />
     </application>
 
 </manifest>
