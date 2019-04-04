@@ -11,12 +11,12 @@
         android:id="@+id/btn_overried"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="重写"/>
+        android:text="重写" />
+
     <Button
         android:id="@+id/btn_interface"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="接口"/>
-
+        android:text="接口" />
 </LinearLayout>

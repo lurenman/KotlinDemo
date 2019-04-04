@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         mContext = this
-        btn_basic_grammar = findViewById<Button>(R.id.btn_basic_grammar)
+        btn_basic_grammar = findViewById(R.id.btn_basic_grammar)
         btn_basic_data_type = findViewById<Button>(R.id.btn_basic_data_type)
         btn_control = findViewById<Button>(R.id.btn_control)
         btn_class_object = findViewById<Button>(R.id.btn_class_object)
