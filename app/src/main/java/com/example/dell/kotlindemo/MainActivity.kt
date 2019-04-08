@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     private var btn_data_sealed: Button? = null
     private var btn_generic: Button? = null
     private var btn_enum: Button? = null
+    private var btn_object_expression: Button? = null
     private var mContext: Context? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         btn_data_sealed = findViewById<Button>(R.id.btn_data_sealed)
         btn_generic = findViewById<Button>(R.id.btn_generic)
         btn_enum = findViewById<Button>(R.id.btn_enum)
+        btn_object_expression = findViewById<Button>(R.id.btn_object_expression)
         initListener()
 
     }
@@ -75,6 +77,10 @@ class MainActivity : AppCompatActivity() {
         })
         btn_enum!!.setOnClickListener(View.OnClickListener {
             val intent = Intent(mContext, EnumActivity::class.java)
+            startActivity(intent)
+        })
+        btn_object_expression!!.setOnClickListener(View.OnClickListener {
+            val intent = Intent(mContext, ObjectExpressionActivity::class.java)
             startActivity(intent)
         })
     }

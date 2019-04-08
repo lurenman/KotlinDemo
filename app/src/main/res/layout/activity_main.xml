@@ -72,7 +72,6 @@
                 android:id="@+id/btn_generic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
                 android:layout_marginTop="25dp"
                 android:text="泛型" />
 
@@ -80,9 +79,15 @@
                 android:id="@+id/btn_enum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
                 android:layout_marginTop="25dp"
                 android:text="枚举" />
+            <Button
+                android:id="@+id/btn_object_expression"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="25dp"
+                android:text="对象表达式" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
